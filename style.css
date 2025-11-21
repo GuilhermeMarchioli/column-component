@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('https://fonts.google.com/specimen/Lexend+Deca');
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url('https://fonts.google.com/specimen/Big+Shoulders+Display');
+}
+
+:root {
+    --font-lex: 'Lexend Deca', 'no-serif';
+    --font-big: 'Big Shoulders Display';
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -10,6 +25,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: var(--font-lex);
 }
 
 main {
