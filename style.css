@@ -40,7 +40,7 @@ section {
 }
 
 section#sedans {
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 7px 7px 0px 0px;
     background-color: hsl(31, 77%, 52%);
 }
 
@@ -49,7 +49,7 @@ section#suvs {
 }
 
 sectioN#luxury {
-    border-radius: 0px 0px 5px 5pxb;
+    border-radius: 0px 0px 7px 7px;
     background-color: hsl(179, 100%, 13%);
 }
 
@@ -80,4 +80,19 @@ button {
     padding: 15px;
     border: none;
     color: hsl(31, 77%, 52%);
+    transition-duration: 0.5s;
+}
+
+#suvs button {
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover, #suvs button:hover, #luxury button:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
 }
